@@ -35,7 +35,7 @@ for(i in 1:nrow(datos_standard)){
 } 
 
 
-for(k1step in 2:2){
+for(k1step in 2:5){
 
   timea <- Sys.time()
   #Init Compress
@@ -185,7 +185,7 @@ for(k1step in 2:2){
     }
   }#k
   print("+-------------------------------------------+")  
-}#k1step
+}
 
 
 
