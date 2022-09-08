@@ -4,8 +4,7 @@ library("TSP")
 library("sda")
 library("igraph")
 library("stringr")
-concorde_path("~/OneDrive - URV/2stepMicro/TSP")
-
+concorde_path("/path/to/concorde")
 
 
 ####################################
@@ -1018,12 +1017,5 @@ microConcordeAllPaths <- function(nombre_fichero_datos, metodo, separador, cabec
   
   
 }# fin funcion
-
-
-
-
-
-
-
 
 ########################################################################
